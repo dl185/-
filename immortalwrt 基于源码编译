@@ -1,0 +1,44 @@
+immortalwrt 基于源码编译
+使用干净的Debian或者ubuntu系统，最好使用国外网络。
+
+1：安装依赖
+sudo apt update -y
+sudo apt full-upgrade -y
+sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
+  bzip2 ccache clang cmake cpio curl device-tree-compiler ecj fastjar flex gawk gettext gcc-multilib \
+  g++-multilib git gnutls-dev gperf haveged help2man intltool lib32gcc-s1 libc6-dev-i386 libelf-dev \
+  libglib2.0-dev libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses-dev libpython3-dev \
+  libreadline-dev libssl-dev libtool libyaml-dev libz-dev lld llvm lrzsz mkisofs msmtp nano \
+  ninja-build p7zip p7zip-full patch pkgconf python3 python3-pip python3-ply python3-docutils \
+  python3-pyelftools qemu-utils re2c rsync scons squashfs-tools subversion swig texinfo uglifyjs \
+  upx-ucl unzip vim wget xmlto xxd zlib1g-dev zstd
+2：下载对应tags的源码（以v24.10.4为例）
+后续步骤建议切换为普通用户，不要用root用户编译。
+
+git clone -b v24.10.4 --single-branch --filter=blob:none https://github.com/immortalwrt/immortalwrt
+3：进入项目目录
+cd immortalwrt
+4：获取最新软件包清单
+./scripts/feeds update -a
+5：安装软件包符号链接
+./scripts/feeds install -a
+6：配置固件信息
+make menuconfig
+这一步很重要，前三个选项分别是目标系统 - 子架构 - 目标机型。根据你的实际设备来选。
+
+然后第四个选项Target Images是修改固件配置的，其中Root filesystem partition size是根文件系统分区大小建议修改，根据你设备的存储空间来选择，这里的值就是最大存储空间。
+
+其他配置都是可选的，其中luci选项中可以预安装一些插件包。
+
+来自某大佬的详细说明：https://youtu.be/czUW52M62Sw?t=2432
+
+7：修改LAN口IP地址等等信息
+可以在这里查看默认值：immortalwrt/package/base-files/files/bin/config_generate at master · immortalwrt/immortalwrt · GitHub
+
+nano package/base-files/files/bin/config_generate
+8：编译固件
+make -j1 V=s
+编译出来的固件在bin目录下
+
+9：重新编译说明
+如果需要重新编译 则执行make distclean清理一些残留和工具链等等，然后再从第四步重新开始。
