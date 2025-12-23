@@ -1,0 +1,29 @@
+🔗 使用覆写生成 Mihomo 配置
+
+▎使用示范
+
+1. 点击 Sub-Store 前端最下面第二个 文件 tab, 按图 1 新建 Mihomo 配置文件
+
+2. 如图2, 进行配置: 设置订阅, 选择一个你喜欢的覆写
+
+⚠️ 你需要保证自己能成功下载覆写, 如果你不知道怎么做. 你可以尝试套一个 GitHub 加速服务. 可打开 https://ghproxy.link 查看最新可用加速服务. 或使用 https://proxy.api.030101.xyz
+
+比如这样: https://proxy.api.030101.xyz/https://raw.githubusercontent.com/mihomo-party-org/override-hub/refs/heads/main/yaml/ACL4SSR_Online_Full_WithIcon.yaml
+
+3. 保存后, 将链接导入 Mihomo Party 等客户端
+
+🎲 Mihomo Party 覆写仓库
+
+🐱 覆写 使用指南
+
+▎自定义更新间隔
+
+脚本操作 - 脚本
+
+if($options){
+  $options._res = {
+    headers: {
+      'profile-update-interval': 10
+    }
+  }
+} 
