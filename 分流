@@ -1,0 +1,188 @@
+私有地址
+private-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/private.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/private.mrs
+
+YouTube
+youtube-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/youtube.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/youtube.mrs
+
+Google
+google-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/google.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/google.mrs
+
+Telegram
+telegram-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/telegram.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/telegram.mrs
+
+Twitter/X
+twitter-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/twitter.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/twitter.mrs
+
+Facebook
+facebook-domain · domain · .mrs · geo
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/facebook.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/facebook.mrs
+
+GitHub
+github-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/github.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/github.mrs
+
+Apple
+apple-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/apple.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/apple.mrs
+
+苹果中国
+apple-cn-domain · domain · .mrs · geo
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/apple-cn.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple-cn.mrs
+
+Microsoft
+microsoft-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/microsoft.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/microsoft.mrs
+
+Netflix
+netflix-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/netflix.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/netflix.mrs
+
+Spotify
+spotify-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/spotify.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/spotify.mrs
+
+TikTok
+tiktok-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/tiktok.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/tiktok.mrs
+
+哔哩哔哩
+bilibili-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/bilibili.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/bilibili.mrs
+
+Steam
+steam-domain · domain · .mrs · geo
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/steam.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs
+
+Epic Games
+epicgames-domain · domain · .mrs · geo
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/epicgames.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/epicgames.mrs
+
+中国大陆
+cn-domain · domain · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geosite/cn.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/cn.mrs
+
+非中国网站
+geolocation-!cn-domain · domain · .mrs · geo
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/geolocation-!cn.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.mrs
+
+广告拦截
+category-ads-all-domain · domain · .mrs · geo
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ads-all.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.mrs
+
+ai
+ai-domain · domain · .mrs · custom
+直连:
+https://github.com/QuixoticHeart/rule-set/raw/refs/heads/ruleset/meta/domain/ai.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/QuixoticHeart/rule-set@ruleset/meta/domain/ai.mrs
+
+私有地址
+private-ip · ipcidr · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/private.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/private.mrs
+
+中国大陆
+cn-ip · ipcidr · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/cn.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/cn.mrs
+
+Google
+google-ip · ipcidr · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/google.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/google.mrs
+
+Telegram
+telegram-ip · ipcidr · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/telegram.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/telegram.mrs
+
+Twitter/X
+twitter-ip · ipcidr · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/twitter.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/twitter.mrs
+
+Facebook
+facebook-ip · ipcidr · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/facebook.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/facebook.mrs
+
+Netflix
+netflix-ip · ipcidr · .mrs · geo-lite
+直连:
+https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/netflix.mrs
+代理:
+https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/netflix.mrs
