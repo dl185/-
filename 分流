@@ -186,3 +186,7 @@ netflix-ip · ipcidr · .mrs · geo-lite
 https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo-lite/geoip/netflix.mrs
 代理:
 https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geoip/netflix.mrs
+
+SOOP
+直连:
+https://raw.githubusercontent.com/KeterCo/ClashRules/refs/heads/main/Soop.list
